@@ -29,97 +29,95 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Mandate360',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      'Built an AI-powered goal management platform with intelligent task breakdown, planning workflows, and scalable collaboration architecture using React Native and Expo.',
+    link: 'https://www.toptal.com/developers/resume/rajan-garg',
+    video: '/videos/mandate360.mp4',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    name: 'VeriKlick',
+    description:
+      'Developed a real-time interview platform featuring video calling, chat, scheduling, and optimized mobile performance focused on reliability and user experience.',
+    link: 'https://www.toptal.com/developers/resume/rajan-garg',
+    video: '/videos/veriklick.mp4',
     id: 'project2',
+  },
+  {
+    name: 'Fitness Platform',
+    description:
+      'Independently built a subscription-based fitness application using Expo, Convex, and Tailwind CSS with real-time sync, trainers, meal management, and personalized experiences.',
+    link: 'https://www.toptal.com/developers/resume/rajan-garg',
+    video: '/videos/fitness-app.mp4',
+    id: 'project3',
+  },
+  {
+    name: 'TrueEnergy',
+    description:
+      'Developed an EV charging platform with real-time updates, optimized deployment pipelines, and scalable mobile architecture supporting 50K+ downloads.',
+    link: 'https://www.toptal.com/developers/resume/rajan-garg',
+    video: '/videos/trueenergy.mp4',
+    id: 'project4',
   },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'SmartData Enterprises',
+    title: 'Lead React Native Developer',
+    start: '2022',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://www.smartdatainc.com/',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    company: 'Netset Softwares',
+    title: 'React Native Developer',
+    start: '2019',
+    end: '2022',
+    link: 'https://netsetsoftware.com/',
     id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
   },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'Optimizing React Native Performance',
+    description:
+      'Strategies for improving rendering, startup performance, and responsiveness in large-scale React Native applications.',
+    link: '/blog/react-native-performance',
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
+    title: 'Building Real-Time Mobile Experiences',
     description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      'Lessons learned while implementing chat, live updates, and video calling systems in production apps.',
+    link: '/blog/real-time-mobile-experiences',
     uid: 'blog-2',
   },
   {
-    title: 'What I learned from my first year of freelancing',
+    title: 'Scaling Expo Applications',
     description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      'Best practices for structuring scalable Expo and React Native applications for long-term maintainability.',
+    link: '/blog/scaling-expo-applications',
     uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
   },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/',
   },
   {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'Toptal',
+    link: 'https://www.toptal.com/developers/resume/rajan-garg',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'dev.rajangarg@gmail.com'
